@@ -22,7 +22,6 @@ echo "############ INSTALLATION COMPLETED ####################"
 echo " OSCAM compiled by : Mohamed_Os / LinuxSat / enigma1969  "
 echo "  Collected by Takichy for your Otex Spider X  , Enjoy   "
 echo "############ ...RESTARTING... ###########################" 
-init 4
-sleep 2
-init 3
+init 6
+
 exit 0
