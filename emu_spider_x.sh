@@ -7,7 +7,8 @@ wget -q "https://github.com/takichy-dz/download/blob/main/EMU_OtexSpiderX_Takich
 echo "############ EMU for_Otex Spider X_by_Takichy ##################"
 echo "############ INSTALLATION STARTED ##########"
 
-tar xf EMU_OtexSpiderX_Takichy.tar.gz -C /
+tar -xzvf EMU_OtexSpiderX_Takichy.tar.gz -C /
+
 set +e
 rm -f EMU_OtexSpiderX_Takichy.tar.gz
 cd ..
