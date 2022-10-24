@@ -3,7 +3,7 @@ TEMPATH='/var/volatile/tmp'
 cd $TEMPATH
 set -e
 echo "############ DOWNLOADING FILES #############"
-wget -q "https://github.com/takichy-dz/download/blob/main/EMU_OtexSpiderX_Takichy.tar.gz"
+wget -q "https://github.com/takichy-dz/download/raw/main/EMU_OtexSpiderX_Takichy.tar.gz"
 echo "############ EMU for_Otex Spider X_by_Takichy ##################"
 echo "############ INSTALLATION STARTED ##########"
 
