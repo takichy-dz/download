@@ -1,0 +1,27 @@
+#!/bin/sh
+TEMPATH='/var/volatile/tmp'
+cd $TEMPATH
+set -e
+echo "############ DOWNLOADING FILES #############"
+wget -q "https://github.com/takichy-dz/download/blob/main/EMU_OtexSpiderX_Takichy.tar.gz"
+echo "############ EMU for_Otex Spider X_by_Takichy ##################"
+echo "############ INSTALLATION STARTED ##########"
+
+tar xf EMU_OtexSpiderX_Takichy.tar.gz -C /
+set +e
+rm -f EMU_OtexSpiderX_Takichy.tar.gz
+cd ..
+chmod 755 /usr/bin/revcamv2
+chmod 755 /etc/init.d/softcam.RevCamV2
+chmod 755 /etc/RevCamV2.emu
+echo ""
+cd ..
+sync
+echo "############ INSTALLATION COMPLETED ####################"
+echo " OSCAM compiled by : Mohamed_Os / LinuxSat / enigma1969  "
+echo "  Collected by Takichy for your Otex Spider X  , Enjoy   "
+echo "############ ...RESTARTING... ###########################" 
+init 4
+sleep 2
+init 3
+exit 0
