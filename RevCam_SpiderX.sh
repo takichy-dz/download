@@ -11,7 +11,7 @@ echo "                                                                          
 echo "                                                                                          "
 echo "############ INSTALLATION STARTED ##########"
 
-tar xf RevCam_SpiderX.tar.gz -C /
+tar -xzf RevCam_SpiderX.tar.gz -C /
 
 set +e
 rm -f RevCam_SpiderX.tar.gz
