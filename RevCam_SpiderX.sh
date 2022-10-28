@@ -4,7 +4,7 @@ cd $TEMPATH
 set -e
 echo "############ DOWNLOADING FILES ###########################################################"
 echo "                                                                                          "
-wget -q "https://github.com/takichy-dz/download/blob/SpiderX_Enigma2/RevCam_SpiderX.tar.gz"
+wget -q "https://github.com/takichy-dz/download/raw/SpiderX_Enigma2/RevCam_SpiderX.tar.gz"
 echo "                                                                                          "
 echo "############ RevCam of DefineOs of SpiderX on Enigma2 by Takichy #########################"
 echo "                                                                                          "
