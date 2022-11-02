@@ -25,7 +25,7 @@ echo " Don't forget to add your Server file : oscam.server from Define OS & don'
 echo "                                                                                          "
 echo "  Uploaded and collected by : Takichy for  Enigma2 of your Otex Spider X  , Enjoy   "
 echo "                                                                                          "
-echo "############ ...RESTARTING... ############################################################" 
-init 6
+echo "############ ...RESTARTING ENIGMA2... ####################################################" 
+killall -9 enigma2
 
 exit 0
