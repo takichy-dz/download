@@ -13,7 +13,7 @@ set +e
 rm -f FreeServer_Takichy_for_Otex.tar.gz
 cd ..
 chmod 755 /data/gx/local/oscam-3/oscam
-chmod 755 /data/gx/local/oscam-3/oscam.config
+chmod 755 /data/gx/local/oscam-3/oscam.conf
 chmod 755 /data/gx/local/oscam-3/oscam.server
 echo ""
 cd ..
