@@ -4,19 +4,19 @@ cd $TEMPATH
 set -e
 echo "############ DOWNLOADING FILES ###########################################################"
 echo "                                                                                          "
-wget -q "https://github.com/takichy-dz/download/raw/SpiderX_Enigma2/RevCam_SpiderX.tar.gz"
+wget -q "https://raw.githubusercontent.com/takichy-dz/download/SpiderX_Enigma2/REVCAM-PURE2.tar.gz"
 echo "                                                                                          "
 echo "############ RevCam of DefineOs of SpiderX on Enigma2 by Takichy #########################"
 echo "                                                                                          "
 echo "                                                                                          "
 echo "############ INSTALLATION STARTED ##########"
 
-tar -xzf RevCam_SpiderX.tar.gz -C /
+tar -xzf REVCAM-PURE2.tar.gz -C /
 
 set +e
-rm -f RevCam_SpiderX.tar.gz
+rm -f REVCAM-PURE2.tar.gz
 cd ..
-chmod 755 /usr/bin/RevCam_SpiderX
+chmod 755 /usr/bin/cam/RevCam_SpiderX
 echo ""
 cd ..
 sync
